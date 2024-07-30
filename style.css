@@ -1,3 +1,4 @@
+
 *{
     padding: 0px;
     margin: 0;
@@ -5,7 +6,8 @@
 
 .header{
     background-color: #1F2937 ;
-    font-family: Roboto ;
+    font-family: Roboto;
+
 }
 
 .headertop{
@@ -34,7 +36,7 @@ ul{
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 a{
@@ -47,6 +49,7 @@ a{
     color: white;
     font-size: 48px;
     font-weight: bolder;
+    
 }
 
 .description{
@@ -54,13 +57,58 @@ a{
     font-size: 18px;
 }
 
-.signupbutton{
-    color: #3882F6;
+button{
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    padding:10px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
 }
 
 .headerbodyimage{
     max-height: 400px;
     margin-left: 100px;
     margin-bottom: 30px;
+    max-width: 400px;
+    
+}
+/*Section 2 */
+
+.section1{
+    margin: 60px;
+
+}
+.infotitle {
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
 }
 
+.square {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    display: flex;
+}
+
+.boxes{
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+span{
+    justify-content: center;
+
+}
