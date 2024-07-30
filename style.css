@@ -112,3 +112,25 @@ span{
     justify-content: center;
 
 }
+
+/*Quote*/
+
+.section2{
+    background-color: #E5E7EB;
+    padding: 150px;
+    align-content: center;
+    display: flex;
+    flex-direction:column;
+
+
+}
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    
+}
+.author{
+    font-weight: bold;
+    align-self: flex-end;
+
+}
